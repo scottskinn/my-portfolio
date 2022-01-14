@@ -11,7 +11,7 @@ export default function About() {
             apps.
           </h1>
           <p className="mb-8 leading-relaxed">
-          Hello everyone and welcome to my profile page! I am currently enrolled at Carlton University in one of their coding boot camps. I have been learning to code and all the other aspects that come with it for a couple months now. So far I am really enjoying it! Previously, I was working as a machinist for approximately ten years. I have always loved making things but wanted a different career for myself. Thus far, web development seems like it could be a good fit for me. Here is a showcase of my work so far.
+          Welcome to my profile page! I am currently enrolled at Carlton University in one of their coding boot camps. I have been learning to code and all the other aspects that come with it for a couple months now. So far I am really enjoying it! Previously, I was working as a machinist for approximately ten years. I have always loved making things but wanted a different career for myself. Thus far, web development seems like it could be a good fit for me. Here is a showcase of my work so far.
           </p>
           <div className="flex justify-center">
             <a
@@ -26,11 +26,11 @@ export default function About() {
             </a>
           </div>
         </div>
-        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 rounded">
           <img
             className="object-cover object-center rounded"
             alt="hero"
-            src="./coding.svg"
+            src="./head-shot.jpg"
           />
         </div>
       </div>
