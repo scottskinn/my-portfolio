@@ -31,6 +31,7 @@ export default function Contact() {
         <form
           netlify netlify-honeypot 
           name="contact"
+          method="post"
           onSubmit={handleSubmit}
           className="flex flex-col items-center w-full md:py-8 mt-8 md:mt-0">
           <input type="hidden" name="contact" value="contact" />
