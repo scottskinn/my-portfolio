@@ -35,19 +35,19 @@ export const projects = [
 
 export const resume = [
   {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/1.jpg",
-    name: "Jesse Hicks",
-    company: "Zoozle",
+    title: "Resume",
+    description:
+      "Google Drive link to my resume.",
+    image: "./google-docs.jpg",
+    link: "https://docs.google.com/document/d/1Qix43t7NTVFnZHdv0YAkAOoAapfIceHT7PUpqHjrSZk/edit?usp=sharing",
   },
   {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/94.jpg",
-    name: "Ruben Alvarez",
-    company: "Dooble.io",
-  },
+    title: "Cover Letter",
+    description:
+      "Google Drive link to my cover letter.",
+    image: "./google-docs.jpg",
+    link: "",
+  }
 ];
 
 export const skills = [
