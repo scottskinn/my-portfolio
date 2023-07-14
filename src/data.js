@@ -38,16 +38,16 @@ export const resume = [
     title: "Resume",
     description:
       "Google Drive link to my resume.",
-    image: "./images/google-docs.jpg",
+    image: "./images/resume.png",
     link: "https://docs.google.com/document/d/10Qw2Ya4vhA1TNul836g9afNcdHTCnN4A/edit?usp=sharing&ouid=112631437069976010907&rtpof=true&sd=true",
   },
-  {
-    title: "Cover Letter",
-    description:
-      "Google Drive link to my cover letter.",
-    image: "./images/google-docs.jpg",
-    link: "",
-  }
+  // {
+  //   title: "Cover Letter",
+  //   description:
+  //     "Google Drive link to my cover letter.",
+  //   image: "./images/google-docs.jpg",
+  //   link: "",
+  // }
 ];
 
 export const skills = [
