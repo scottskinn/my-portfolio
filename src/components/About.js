@@ -11,26 +11,28 @@ export default function About() {
             apps.
           </h1>
           <p className="mb-8 leading-relaxed">
-          Welcome to my profile page! I am currently enrolled at Carlton University in one of their coding boot camps. I have been learning to code and all the other aspects that come with it for a couple months now. So far I am really enjoying it! Previously, I was working as a machinist for approximately ten years. I have always loved making things but wanted a different career for myself. Thus far, web development seems like it could be a good fit for me. Here is a showcase of my work so far.
+            Graduated from Carleton University with a certificate in Full-Stack Web Development. A highly motivated and skilled individual seeking to transition a career in web development. Proficient in React and JavaScript, with a strong understanding of front-end web design principles. Proven learner with excellent problem-solving skills and a passion for creating dynamic and engaging websites. Creative Developer with proficiency in monitoring software performance tests and revising programs for corrections. First-rate critical thinking and organizational skills. Excellent understanding of basic development principles and programming for diverse operating systems.
           </p>
           <div className="flex justify-center">
             <a
               href="#contact"
-              className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
+              className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg"
+            >
               Work With Me
             </a>
             <a
               href="#projects"
-              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
+              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
+            >
               See My Past Work
             </a>
           </div>
         </div>
-        <div className="lg:max-w-md lg:w-1/2 md:w-1/2 w-5/6 rounded">
+        <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex justify-center items-center">
           <img
-            className="object-cover object-center rounded"
+            className="object-cover object-center rounded h-auto max-w-full"
             alt="hero"
-            src="./head-shot.jpg"
+            src="./images/head-shot.jpg"
           />
         </div>
       </div>

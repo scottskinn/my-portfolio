@@ -1,35 +1,35 @@
 export const projects = [
   {
-    title: "PixaRadar",
-    subtitle: "MERN Stack",
+    title: "ss-crwn-clothing",
+    subtitle: "E-commerce site",
     description:
-      "This is my first group project. We created an app that can select movie titles based on your mood you select.",
-    image: "./pixaradar.jpg",
-    link: "https://github.com/askarrizvi/project1",
+      "React E-commerce site with logins and checkout.",
+    image: "./images/ss-crwn.jpg",
+    link: "https://ss-crwn-clothing.netlify.app/",
+  },
+  {
+    title: "Bug Tracker",
+    subtitle: "React",
+    description:
+    "Keeps track of errors in your projects.",
+    image: "./images/bug-tracker.jpg",
+    link: "https://bug-tracker-2n.netlify.app/",
+  },
+  {
+    title: "Machinist Calculator",
+    subtitle: "React",
+    description:
+    "Calculator app for speeds & feeds for cutting tools.",
+    image: "./images/Machin-cal.jpg",
+    link: "https://machinist-calculator.netlify.app/",
   },
   {
     title: "Run Buddy",
     subtitle: "HTML and CSS",
     description:
       "First page i made myself using html and css and deployed through github pages.",
-    image: "./Run-buddy.jpg",
+    image: "./images/Run-buddy.jpg",
     link: "https://scottskinn.github.io/run-buddy",
-  },
-  {
-    title: "Developers Tech Blog",
-    subtitle: "JavaScript",
-    description:
-      "A blog page made with JS where a user can post comments and reply.",
-    image: "./Developed-tech-blog.jpg",
-    link: "https://shrouded-escarpment-46174.herokuapp.com/login",
-  },
-  {
-    title: "Photo Port",
-    subtitle: "React",
-    description:
-      "A photo gallery made with React as a single page application project.",
-    image: "./Photo-port.jpg",
-    link: "https://scottskinn.github.io/photo-port/",
   },
 ];
 
@@ -38,23 +38,23 @@ export const resume = [
     title: "Resume",
     description:
       "Google Drive link to my resume.",
-    image: "./google-docs.jpg",
-    link: "https://docs.google.com/document/d/1Qix43t7NTVFnZHdv0YAkAOoAapfIceHT7PUpqHjrSZk/edit?usp=sharing",
+    image: "./images/google-docs.jpg",
+    link: "https://docs.google.com/document/d/10Qw2Ya4vhA1TNul836g9afNcdHTCnN4A/edit?usp=sharing&ouid=112631437069976010907&rtpof=true&sd=true",
   },
   {
     title: "Cover Letter",
     description:
       "Google Drive link to my cover letter.",
-    image: "./google-docs.jpg",
+    image: "./images/google-docs.jpg",
     link: "",
   }
 ];
 
 export const skills = [
-  "HTML",
-  "CSS",
   "JavaScript",
+  "Bootstrap",
   "React",
-  "Node",
-  "React",
+  "MongoDB",
+  "Node.js",
+  "MySQL"
 ];

@@ -12,9 +12,7 @@ export default function Skills() {
             Skills &amp; Technologies
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi sit
-            ipsa delectus eum quo voluptas aspernatur accusantium distinctio
-            possimus est.
+          As a skilled Web Developer, I possess a strong foundation in JavaScript, React, Node.js, Bootstrap, MySQL, and MongoDB. With proficiency in JavaScript, I am able to create dynamic and interactive web applications, leveraging the power of React for building modern and responsive user interfaces. Furthermore, my expertise in Node.js allows me to develop server-side applications and RESTful APIs, ensuring seamless communication between the front-end and back-end. I am also well-versed in utilizing Bootstrap to design visually appealing and mobile-friendly websites. In addition, my knowledge of MySQL and MongoDB enables me to effectively manage and query databases, ensuring efficient data storage and retrieval for web applications. With these robust skills and technologies, I am equipped to deliver innovative and high-quality solutions for diverse web development projects
           </p>
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
