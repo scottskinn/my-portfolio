@@ -3,7 +3,7 @@ export const projects = [
     title: "ss-crwn-clothing",
     subtitle: "E-commerce site",
     description:
-      "React E-commerce site with logins and checkout.",
+      "React E-commerce site with logins and chart checkout.",
     image: "./images/ss-crwn.jpg",
     link: "https://ss-crwn-clothing.netlify.app/",
   },
@@ -11,7 +11,7 @@ export const projects = [
     title: "Bug Tracker",
     subtitle: "React",
     description:
-    "Keeps track of errors in your projects.",
+    "Keep track of errors in your projects.",
     image: "./images/bug-tracker.jpg",
     link: "https://bug-tracker-2n.netlify.app/",
   },
@@ -22,6 +22,14 @@ export const projects = [
     "Calculator app for speeds & feeds for cutting tools.",
     image: "./images/Machin-cal.jpg",
     link: "https://machinist-calculator.netlify.app/",
+  },
+  {
+    title: "Minecraft",
+    subtitle: "React",
+    description:
+      "This project is a mimic of Minecraft in React.",
+    image: "./images/minecraft.png",
+    link: "https://react-minecraft-byscott.netlify.app/",
   },
   {
     title: "Run Buddy",
