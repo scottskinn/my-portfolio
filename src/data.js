@@ -4,7 +4,7 @@ export const projects = [
     subtitle: "E-commerce site",
     description:
       "React E-commerce site with logins and chart checkout.",
-    image: "./images/ss-crwn.jpg",
+    image: "./images/Homepage.jpg",
     link: "https://ss-crwn-clothing.netlify.app/",
   },
   {
@@ -28,7 +28,7 @@ export const projects = [
     subtitle: "React",
     description:
       "This project is a mimic of Minecraft in React.",
-    image: "./images/minecraft.png",
+    image: "./images/mincraft.png",
     link: "https://react-minecraft-byscott.netlify.app/",
   },
   {
@@ -60,7 +60,7 @@ export const resume = [
 
 export const skills = [
   "JavaScript",
-  "Bootstrap",
+  "Tailwind CSS",
   "React",
   "MongoDB",
   "Node.js",

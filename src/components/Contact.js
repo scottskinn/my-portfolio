@@ -39,7 +39,7 @@ export default function Contact() {
   }
 
   return (
-    <section id="contact" className="relative">
+    <section id="contact" className="relative text-gray-100">
       <form
         name="contact"
         method="post"
@@ -52,28 +52,28 @@ export default function Contact() {
         </h2>
         {submitError && <p className="text-red-500">{submitError}</p>}
         <div className="relative w-9/12 mb-4">
-          <label htmlFor="name" className="leading-7 text-sm text-gray-400">
+          <label htmlFor="name" className="leading-7 text-sm">
             Name
           </label>
           <input
             type="text"
             id="name"
             name="name"
-            className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+            className="w-full bg-gray-800 rounded border border-gray-700 focus:border-green-500 focus:ring-2 focus:ring-green-900 text-base outline-none py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             value={name}
             onChange={(e) => setName(e.target.value)}
             required
           />
         </div>
         <div className="relative w-9/12 mb-4">
-          <label htmlFor="email" className="leading-7 text-sm text-gray-400">
+          <label htmlFor="email" className="leading-7 text-sm">
             Email
           </label>
           <input
             type="email"
             id="email"
             name="email"
-            className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+            className="w-full bg-gray-800 rounded border border-gray-700 focus:border-green-500 focus:ring-2 focus:ring-green-900 text-base outline-none py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             required
@@ -82,14 +82,14 @@ export default function Contact() {
         <div className="relative w-9/12 mb-4">
           <label
             htmlFor="message"
-            className="leading-7 text-sm text-gray-400"
+            className="leading-7 text-sm"
           >
             Message
           </label>
           <textarea
             id="message"
             name="message"
-            className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+            className="w-full bg-gray-800 rounded border border-gray-700 focus:border-green-500 focus:ring-2 focus:ring-green-900 h-32 text-base outline-none py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
             value={message}
             onChange={(e) => setMessage(e.target.value)}
             required
@@ -98,7 +98,7 @@ export default function Contact() {
         <button
           type="submit"
           disabled={submitting}
-          className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+          className="text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg"
         >
           {submitting ? "Submitting..." : "Submit"}
         </button>

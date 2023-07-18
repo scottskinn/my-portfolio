@@ -8,10 +8,10 @@ export default function Skills() {
       <div className="container px-5 py-10 mx-auto">
         <div className="text-center mb-20">
           <ChipIcon className="w-10 inline-block mb-4" />
-          <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
+          <h1 className="sm:text-4xl text-3xl font-medium title-font text-gray-100 mb-4">
             Skills &amp; Technologies
           </h1>
-          <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+          <p className="text-base text-gray-100 leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto sm:text-left">
           As a skilled Web Developer, I possess a strong foundation in JavaScript, React, Node.js, Bootstrap, MySQL, and MongoDB. With proficiency in JavaScript, I am able to create dynamic and interactive web applications, leveraging the power of React for building modern and responsive user interfaces. Furthermore, my expertise in Node.js allows me to develop server-side applications and RESTful APIs, ensuring seamless communication between the front-end and back-end. I am also well-versed in utilizing Bootstrap to design visually appealing and mobile-friendly websites. In addition, my knowledge of MySQL and MongoDB enables me to effectively manage and query databases, ensuring efficient data storage and retrieval for web applications. With these robust skills and technologies, I am equipped to deliver innovative and high-quality solutions for diverse web development projects
           </p>
         </div>

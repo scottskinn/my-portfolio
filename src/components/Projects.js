@@ -25,7 +25,7 @@ export default function Projects() {
               <div className="relative">
                 <img
                   alt="gallery"
-                  className="w-full h-64 object-cover object-center"
+                  className="w-full h-64 bg-contain object-cover object-center"
                   src={project.image}
                 />
                 <div className="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100">
