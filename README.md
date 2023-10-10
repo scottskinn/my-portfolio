@@ -10,9 +10,6 @@ In this portfolio, you will find information about my background, skills, and ex
 
 Here are some of the notable projects included in this portfolio:
 
-Project 1: A description of project 1 and its features.
-Project 2: A description of project 2 and its features.
-Project 3: A description of project 3 and its features.
 Each project comes with a detailed description, technologies used, and links to live demos or repositories.
 
 ## Technologies Used

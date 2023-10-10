@@ -3,7 +3,7 @@ export const projects = [
     title: "ss-crwn-clothing",
     subtitle: "E-commerce site",
     description:
-      "React E-commerce site with logins and chart checkout.",
+      "React E-commerce site that hosts a clothing store, with the ability to add items to cart and checkout using Stripe.",
     image: "./images/Homepage.jpg",
     link: "https://ss-crwn-clothing.netlify.app/",
   },
@@ -11,7 +11,7 @@ export const projects = [
     title: "Bug Tracker",
     subtitle: "React",
     description:
-    "Keep track of errors in your projects.",
+    "The Bug Tracker App is a application built with React that allows you to track and manage bugs for your projects. You can assign people to the errors with a priority level",
     image: "./images/bug-tracker.jpg",
     link: "https://bug-tracker-2n.netlify.app/",
   },
@@ -19,7 +19,7 @@ export const projects = [
     title: "Machinist Calculator",
     subtitle: "React",
     description:
-    "Calculator app for speeds & feeds for cutting tools.",
+    "Machinist toolkit designed to assist machinists in their day-to-day operations.The app provides quick access to a database of cutting speeds, feeds, and recommended parameters for various materials.",
     image: "./images/Machin-cal.jpg",
     link: "https://machinist-calculator.netlify.app/",
   },
@@ -27,7 +27,7 @@ export const projects = [
     title: "Minecraft",
     subtitle: "React",
     description:
-      "This project is a mimic of Minecraft in React.",
+      "This project is a mimic of the game Minecraft in React. Create your own world!",
     image: "./images/mincraft.png",
     link: "https://react-minecraft-byscott.netlify.app/",
   },
@@ -35,7 +35,7 @@ export const projects = [
     title: "Run Buddy",
     subtitle: "HTML and CSS",
     description:
-      "First page i made myself using html and css and deployed through github pages.",
+      "First page I made myself using HTML and CSS and deployed through github pages. This is a fitness app that can set you up with local trainers.",
     image: "./images/Run-buddy.jpg",
     link: "https://scottskinn.github.io/run-buddy",
   },
