@@ -47,7 +47,7 @@ export const resume = [
     description:
       "Google Drive link to my resume.",
     image: "./images/resume.png",
-    link: "https://docs.google.com/document/d/10Qw2Ya4vhA1TNul836g9afNcdHTCnN4A/edit?usp=sharing&ouid=112631437069976010907&rtpof=true&sd=true",
+    link: "https://docs.google.com/document/d/1PnnSWM4B0z_qS732PcLuL8BWf9WGMB1R-MrnAnIoXys/edit?usp=sharing",
   },
   // {
   //   title: "Cover Letter",
